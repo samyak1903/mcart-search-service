@@ -11,7 +11,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/search")
 //@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:3000/"})
-@CrossOrigin(origins = "https://dgckmt9sq7s6g.cloudfront.net")
+@CrossOrigin(origins = "*")
 		public class SearchController {
 
 	private final SearchRepository searchRepository;
