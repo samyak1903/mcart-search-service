@@ -3,6 +3,6 @@ spring:
     name: searchservice
 
   elasticsearch:
-    uris: http://localhost:9200
+    uris: ${ELASTIC_URL:http://localhost:9200}
 server:
   port: 8082
